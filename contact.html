@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <title>MSWD</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+
+  <body bgcolor="DBE2EF">
+    <h2 align="center">Student information system</h2>
+    <hr color="black" />
+    <hr color="black" />
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="registration.html" target="_blank">Registration</a></li>
+        <li><a href="login.html" target="_blank">Login</a></li>
+        <li><a href="contact.html" target="_blank">Contact Us</a></li>
+        <li>
+          <a href="https://newerp.kluniversity.in/" target="_blank">ERP</a>
+        </li>
+      </ul>
+    </nav>
+    <br />
+    <center>
+      <form action="#" method="post">
+        <table>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="name"
+                placeholder="Enter Name"
+                required
+                maxlength="30" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="email"
+                name="name"
+                placeholder="Enter Email"
+                required />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="contactno"
+                pattern="[6789][0-9]{9}"
+                placeholder="Enter Contact No"
+                required />
+              <i style="color: red"
+                >Must Be 10 Digits & Should Start with 6 - 9</i
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="subject"
+                placeholder="Enter Subject"
+                required
+                maxlength="50" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <textarea
+                name="Message"
+                placeholder="Enter Message"
+                cols="30"
+                rows="5"
+                required></textarea>
+            </td>
+          </tr>
+          <tr align="center">
+            <td>
+              <input type="submit" value="Submit Query" class="button" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </center>
+  </body>
+</html>
